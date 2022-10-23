@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lab19_Lukyanov</string>
+    <string name="labSelectedGraph">Selected graph: -1</string>
+    <string name="labRename">Rename text:</string>
+    <string name="labTextNode">Node text:</string>
+    <string name="labXNode">Node X:</string>
+    <string name="labYNode">Node Y:</string>
+    <string name="labValueLink">Link value:</string>
+    <string name="labAuth">Authentication</string>
+    <string name="labReg">Registration</string>
+    <string name="labLogin">Login</string>
+    <string name="labPass">Password</string>
+    <string name="labNewPass">New pass:</string>
+    <string name="labAPIPass">API endpoint:</string>
+    <string name="labSessionList">Choose session to close</string>
+    <string name="btnSaveNode">SAVE NODE</string>
+    <string name="btnSaveLink">SAVE LINK</string>
+    <string name="btnCloseSession">Close current session</string>
+    <string name="btnDeleteAccount">Delete current account</string>
+    <string name="btnSave">SAVE</string>
+    <string name="btnReturn">RETURN TO GRAPHLIST</string>
+    <string name="btnSignUP">SIGN UP</string>
+    <string name="btnSignIN">SIGN IN</string>
+    <string name="chkSave">Save</string>
+</resources>

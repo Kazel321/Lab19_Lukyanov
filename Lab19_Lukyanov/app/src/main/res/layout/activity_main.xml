@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <com.example.testlab_18.GraphView
+        android:id="@+id/graphView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="on_add_click"
+            app:icon="@android:drawable/ic_input_add" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="on_remove_click"
+            app:icon="@android:drawable/ic_delete" />
+
+        <Button
+            android:id="@+id/btnConAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="on_link_add"
+            app:icon="?attr/actionModeShareDrawable" />
+
+        <Button
+            android:id="@+id/btnConDel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="on_link_remove"
+            app:icon="@android:drawable/ic_input_delete" />
+
+        <Button
+            android:id="@+id/btnProperties"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="on_node_prop"
+            app:icon="@android:drawable/ic_dialog_info" />
+
+        <Button
+            android:id="@+id/btnSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="on_graphs"
+            app:icon="@android:drawable/ic_dialog_dialer" />
+    </LinearLayout>
+</LinearLayout>
